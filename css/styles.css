@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 100!important;
+}
+
+.item-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.message{
+    color: gold;
+}
+
+.c-1{
+    color: #AF5D63;
+}
+
+.c-2{
+    color: #4A6C6F;
+}
+
+.c-3{
+    color: #846075;
+}
