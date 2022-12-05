@@ -20,8 +20,13 @@
     <div class="mt-3 container text-center">
         <h1><span class="c-1">Rock</span>, <span class="c-2">Paper</span>, <span class="c-3">Scissors</span></h1>
         <h4>Choose one and wait for the computer to respond</h4>
+        <div class="row my-2">
+            <div class="col-12 messageContainer">
+                <h1 class="message"></h1>
+            </div>
+        </div>
 
-        <div class="row mt-5 justify-content-center">
+        <div class="row mt-1 justify-content-center">
             <div id="player" class="card-col col-12 col-md-6 col-lg-4">
                 <h1>YOU</h1>
                 <small class="win d-none">WINS: <span class="play-wins">0</span></small>
@@ -31,7 +36,7 @@
                         <h5 class="card-title">Card title</h5>
                     </div>
                 </div>
-                <div class="d-grid gap-2 d-md-block my-2">
+                <div class="my-2">
                     <button id="rock" class="user-choice btn btn-outline-secondary" type="button">ROCK</button>
                     <button id="paper" class="user-choice btn btn-outline-secondary" type="button">PAPER</button>
                     <button id="scissors" class="user-choice btn btn-outline-secondary" type="button">SCISSORS</button>
@@ -49,11 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="row my-4">
-            <div class="col-12 messageContainer">
-                <h1 class="message"></h1>
-            </div>
-        </div>
+
         <script src="js/game.js"></script>
 </body>
 
